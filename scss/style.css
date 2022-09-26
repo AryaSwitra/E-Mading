@@ -1,0 +1,39 @@
+.bd-navbar {
+      min-height: 4rem;
+    background-color: #563d7c;
+    box-shadow; 
+}
+
+.shadow-sm {
+  box-shadow:rgba(0, 0, 0, 0.075) 0 0.125rem 0.25rem;
+}
+
+.d-none {
+  display:none;
+}
+
+.product-device-2 {
+    top: -25%;
+    right: auto;
+    bottom: 0;
+    left: 5%;
+    background-color: white;
+}
+
+
+.product-device {
+    position: absolute;
+    right: 10%;
+    bottom: -30%;
+    width: 300px;
+    height: 540px;
+    background-color: #333;
+    border-radius: 21px;
+    -webkit-transform: rotate(30deg);
+    transform: rotate(30deg);
+    box-sizing: border-box;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+

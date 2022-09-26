@@ -1,0 +1,27 @@
+body{
+	margin:0;
+	padding:0;
+	background:url(img2/1.jpg);
+	background-size: cover;
+	font-family: sans-serif;
+}
+
+.ubahbox{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 600px;
+	height: 600px;
+	padding: 30px 40px;
+	box-sizing: border-box;
+	background: rgba(0,0,0,0.5);
+}
+
+.ubahbox h1{
+	color: white;
+}
+
+.ubahbox label{
+	color: white;
+}
